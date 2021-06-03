@@ -1,0 +1,39 @@
+body{
+    border: 2px solid gray;
+    border-radius: 12px;
+    width:400px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 200px;
+  
+}
+form{
+    text-align: center;
+   
+}
+form label{
+    display:inline-block;
+    padding: 10px 5px;
+    font-family: 'Bebas Neue', cursive;
+}
+form input{
+    display:inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: cornflowerblue;
+} 
+input[type=submit]{
+    padding: 5px 100px;
+    margin:20px;
+    border: 1px solid black ;
+    border-radius: 5px;
+    background-color: gold;
+    font-family: 'Bebas Neue', cursive;
+}
+::placeholder{
+    color: powderblue;
+    font-family: 'Bebas Neue', cursive;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
